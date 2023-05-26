@@ -1,5 +1,6 @@
 import { PineconeClient } from '@pinecone-database/pinecone';
 
+
 if (!process.env.PINECONE_ENVIRONMENT || !process.env.PINECONE_API_KEY) {
   throw new Error('Pinecone environment or api key vars missing');
 }
